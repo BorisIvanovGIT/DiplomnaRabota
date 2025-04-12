@@ -1,0 +1,179 @@
+(footprint "IND_VLS252012HBX-100M-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.532 -1.9064 0)
+		(layer "F.SilkS")
+		(uuid "7f77b896-6160-4dd2-b34c-9398d1cdef74")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_VLS252012HBX-100M-1"
+		(at 7.8472 1.9064 0)
+		(layer "F.Fab")
+		(uuid "038aace1-31ee-47e5-859d-2441f4bf76f4")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d90dde6c-c345-468a-8f75-282c6459d35e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "211f65d9-6f8a-430d-ba6b-b70149dc2e52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.33 -1)
+		(end 0.33 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "751707b7-2df1-442b-8821-201fe014e142")
+	)
+	(fp_line
+		(start -0.33 1)
+		(end 0.33 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc2b0d25-5e2a-40ab-8716-435b69ad6f17")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0895c0d3-14f1-453e-8e62-eaa920983d14")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d134d32-f462-4ad3-a697-d4d684e65b8b")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1071ba7f-2078-40aa-8bf3-d026a4877a11")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9109a3ea-2f8b-48f3-a1eb-e823a068dda8")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02e74800-2396-4222-9608-59524db6e3c6")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7162ce0f-5a0a-4cfa-b048-a2238ab9ff9a")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8e272c2-2f6a-4a2b-9e4f-2725d4ebbced")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78326dc0-871b-42c8-862a-e691f7bb6a04")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "90d2632e-84b5-4476-b1eb-b021ea309ce9")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d6e6cd80-ec0a-49d4-a8aa-6afc7849b256")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/VLS252012HBX-100M-1/VLS252012HBX-100M-1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,125 @@
+(footprint "RC0402JR-0710KL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.08119 0.953988 180)
+		(layer "F.SilkS")
+		(uuid "e664ea63-b807-4f4b-a4a9-69f127666ad0")
+		(effects
+			(font
+				(size 0.701095 0.701095)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R0402"
+		(at -1.081568 0.954323 180)
+		(layer "F.Fab")
+		(uuid "c3b9ef89-89ee-40fc-a260-2d4c2821a281")
+		(effects
+			(font
+				(size 0.701343 0.701343)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4686450d-1d23-43aa-a89a-a277a007d8b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d4f4803-e9a0-45ce-b695-9b9307666c1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -0.4445 -0.762)
+		(mid -0.407303 -0.851803)
+		(end -0.3175 -0.889)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6e463ea-f6e0-47a6-8c77-8ce0a81ce4b7")
+	)
+	(fp_arc
+		(start -0.3175 0.889)
+		(mid -0.407303 0.851803)
+		(end -0.4445 0.762)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dad016de-e1c1-42c5-af9e-0f24164d7926")
+	)
+	(fp_arc
+		(start 0.3175 -0.889)
+		(mid 0.407303 -0.851803)
+		(end 0.4445 -0.762)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2bd414e-a735-471e-a632-47b1f9e94f1e")
+	)
+	(fp_arc
+		(start 0.4445 0.762)
+		(mid 0.407303 0.851803)
+		(end 0.3175 0.889)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f46350b-7b45-46fe-9c50-d77a502a9202")
+	)
+	(pad "1" smd roundrect
+		(at 0 -0.4445)
+		(size 0.635 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "7518cc82-ef2d-4822-84f8-f1e5a78a6ecf")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.4445)
+		(size 0.635 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "c66964ea-d947-4812-bc79-924274a7301a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/Resistors/RC0402JR-0710KL/RC0402JR-0710KL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

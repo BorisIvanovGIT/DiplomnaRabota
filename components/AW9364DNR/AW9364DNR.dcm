@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AW9364DNR
+D 4-Channel 1-wire Dimming LED Driver with Ultra Low Dropout Current Source
+K
+F https://datasheet.lcsc.com/szlcsc/1912111437_AWINIC-Shanghai-Awinic-Tech-AW9364DNR_C401007.pdf
+$ENDCMP
+#
+#End Doc Library
