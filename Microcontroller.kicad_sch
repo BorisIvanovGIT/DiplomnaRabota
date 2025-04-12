@@ -2920,16 +2920,6 @@
 		)
 		(uuid "4a63347c-8014-42da-9ca8-aa1f1ee9345d")
 	)
-	(text "test text"
-		(exclude_from_sim no)
-		(at 45.72 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d677ebf8-fc3f-4b18-8877-ac4f5f324a15")
-	)
 	(text "One capacitor close to each pin"
 		(exclude_from_sim no)
 		(at 149.86 63.5 0)
