@@ -30,4 +30,6 @@
   (lib (name "PTS810SJK250SMTRLFS")(type "KiCad")(uri "${KIPRJMOD}/components/Project Buttons/PTS810SJK250SMTRLFS")(options "")(descr ""))
   (lib (name "TS-1010B-B-A")(type "KiCad")(uri "${KIPRJMOD}/components/Project Buttons/TS-1010B-B-A/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "2025-04-11_13-12-59")(type "KiCad")(uri "${KIPRJMOD}/components/Project Buttons/TS-1010B-B-A/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Oscillator")(type "KiCad")(uri "${KIPRJMOD}/components/Oscillator.pretty")(options "")(descr ""))
+  (lib (name "S3240000151040")(type "KiCad")(uri "${KIPRJMOD}/components/Oscillator/S3240000151040.pretty")(options "")(descr ""))
 )

@@ -15,4 +15,5 @@
   (lib (name "Project Connector")(type "KiCad")(uri "${KIPRJMOD}/components/Project Connector.kicad_sym")(options "")(descr ""))
   (lib (name "Project Buttons")(type "KiCad")(uri "${KIPRJMOD}/components/Project Buttons/Project Buttons.kicad_sym")(options "")(descr ""))
   (lib (name "2025-04-11_13-12-59")(type "KiCad")(uri "${KIPRJMOD}/components/Project Buttons/TS-1010B-B-A/KiCADv6/2025-04-11_13-12-59.kicad_sym")(options "")(descr ""))
+  (lib (name "S3240000151040")(type "KiCad")(uri "${KIPRJMOD}/components/Oscillator/S3240000151040.kicad_sym")(options "")(descr ""))
 )
