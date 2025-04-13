@@ -7435,7 +7435,7 @@
 	(symbol
 		(lib_id "S3240000151040:S3240000151040")
 		(at 234.95 144.78 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7443,7 +7443,7 @@
 		(dnp no)
 		(uuid "b6e2e7e1-6a89-40da-9a78-80bc31935921")
 		(property "Reference" "Q1"
-			(at 234.95 137.16 0)
+			(at 234.95 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7451,7 @@
 			)
 		)
 		(property "Value" "40MHz"
-			(at 235.458 141.224 0)
+			(at 234.442 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +7460,7 @@
 			)
 		)
 		(property "Footprint" "S3240000151040:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
-			(at 235.458 140.97 0)
+			(at 234.442 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,7 +7469,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191012/C431172_99BCDFC5E39E114929AE7F9C9DED2B9F.pdf"
-			(at 235.458 140.716 0)
+			(at 234.442 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,7 +7478,7 @@
 			)
 		)
 		(property "Description" "Crystal Type:贴片晶振 Frequency: Normal temperature Frequency Tolerance:±10ppm Normal temperature Frequency Tolerance:±10ppm External load capacitor: Equivalent Series Resistance (ESR):40Ω Operating Temperature: Operating Temperature:"
-			(at 235.204 141.478 0)
+			(at 234.696 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +7487,7 @@
 			)
 		)
 		(property "Manufacturer Part" "S3240000151040"
-			(at 235.458 141.224 0)
+			(at 234.442 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +7496,7 @@
 			)
 		)
 		(property "Manufacturer" "JGHC(晶光华)"
-			(at 234.95 140.97 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +7505,7 @@
 			)
 		)
 		(property "Supplier Part" "C426990"
-			(at 235.458 141.224 0)
+			(at 234.442 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +7514,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 235.204 141.224 0)
+			(at 234.696 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +7523,7 @@
 			)
 		)
 		(property "LCSC Part Name" "40MHz ±10ppm 15pF"
-			(at 235.458 141.224 0)
+			(at 234.442 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +7532,7 @@
 			)
 		)
 		(property "Footpirnt Name" "S3240000151040"
-			(at 234.442 151.638 0)
+			(at 235.458 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
