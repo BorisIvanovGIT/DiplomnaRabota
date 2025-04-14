@@ -196,8 +196,9 @@
 	(net 75 "/Display Connector and Driver/LEDK4")
 	(net 76 "/Display Connector and Driver/LEDK2")
 	(net 77 "/Display Connector and Driver/LEDK1")
-	(net 78 "ESP_USB_DP")
-	(net 79 "ESP_USB_DM")
+	(net 78 "Net-(D1-Pad2)")
+	(net 79 "ESP_USB_D+")
+	(net 80 "ESP_USB_D-")
 	(footprint "MPQ4420HGJ-Z:TSOT23-8_MPQ4420H_MNP"
 		(layer "F.Cu")
 		(uuid "0135a28b-5c61-4b09-ae42-2f817fbbf273")
@@ -6732,7 +6733,7 @@
 			(at -1.1 0.85)
 			(size 1.4 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 8 "/Microcontroller/XTAL_P")
+			(net 9 "/Microcontroller/XTAL_N")
 			(pinfunction "OSC1")
 			(pintype "input")
 			(uuid "4c6c4b7b-1c85-4e0f-b5a6-48c2cefb3ea9")
@@ -6750,7 +6751,7 @@
 			(at 1.1 -0.85)
 			(size 1.4 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 9 "/Microcontroller/XTAL_N")
+			(net 8 "/Microcontroller/XTAL_P")
 			(pinfunction "OSC2")
 			(pintype "output")
 			(uuid "73218bb6-5953-4155-a082-70e80db4975d")
@@ -8905,7 +8906,7 @@
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
-			(net 79 "ESP_USB_DM")
+			(net 80 "ESP_USB_D-")
 			(pinfunction "GPIO19")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
@@ -8916,7 +8917,7 @@
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
-			(net 78 "ESP_USB_DP")
+			(net 79 "ESP_USB_D+")
 			(pinfunction "GPIO20")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
@@ -9264,6 +9265,371 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/components/ESP32-S3R8/ESP32-S3R8.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "APHHS1005CGCK:LED_APHHS1005CGCK"
+		(layer "F.Cu")
+		(uuid "83d94388-affb-470f-b6df-d7d9969be66c")
+		(at 128.92 62.97)
+		(property "Reference" "D1"
+			(at 0 -1 0)
+			(layer "F.SilkS")
+			(uuid "7958ad90-4878-4922-b7f0-a7c5354e25fa")
+			(effects
+				(font
+					(size 0.629921 0.629921)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "APHHS1005CGCK"
+			(at 6 1.8 0)
+			(layer "F.Fab")
+			(uuid "6a09ba29-5313-453c-a21a-1c4d8a662f3e")
+			(effects
+				(font
+					(size 0.629921 0.629921)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e09ad2ac-cd0b-4e39-9db1-0396f8ee1e85")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e62eaf-d02b-4a2c-afe2-551ef1bc507b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Kingbright"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdf83b65-76cc-4a56-99c0-5d64c37709c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.25mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72a05560-beae-46fa-a8f1-30fa0492ca1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0402 Kingbright"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4deaa36b-33fe-46cb-a1b5-5ae35904e18f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "def213b3-5320-45d0-aac8-f3a17fea43b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/APHHS1005CGCK/Kingbright/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "307570f6-acb5-47aa-903d-08c5925bd642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75afd792-f12c-4ca4-8c5c-ebbe66895d1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "V.9B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec0cbe41-2858-4dde-8206-26fafe4d7469")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHHS1005CGCK/Kingbright/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b363c682-ee70-4a7a-ab82-5e05b18a060b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "APHHS1005CGCK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7b73dd7-f839-4749-bfba-c83df4e9d2d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Green 570nm LED Indication - Discrete 2.1V 0402 (1005 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eab8aea2-af09-4427-a3c3-095041a82ef3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc711cae-756a-4b1b-b7b9-ec99306ab37c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dca64fc-dc60-4bc4-9838-76ff0ceda77f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/74406a67-22b8-4caa-8bce-4549352dce77/64681487-27d2-435b-95e3-e1d1fbfd852e")
+		(sheetname "/Power Management/")
+		(sheetfile "powerManagement.kicad_sch")
+		(attr smd)
+		(fp_poly
+			(pts
+				(xy -0.85 -0.3) (xy -0.05 -0.3) (xy -0.05 0.3) (xy -0.85 0.3)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "75f60072-1252-41f4-8bae-27d87515e0d1")
+		)
+		(fp_poly
+			(pts
+				(xy 0.05 -0.3) (xy 0.85 -0.3) (xy 0.85 0.3) (xy 0.05 0.3)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "04b8a2c9-7799-4b68-91f9-643c3ec6bf2e")
+		)
+		(fp_circle
+			(center -1.5 0)
+			(end -1.4 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "da723e07-e1fc-40c7-948d-0c3a40d3d9b7")
+		)
+		(fp_line
+			(start -1.05 -0.5)
+			(end -1.05 0.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e6dc72f0-4d61-457d-8ffc-46455293d3c4")
+		)
+		(fp_line
+			(start -1.05 0.5)
+			(end 1.05 0.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "14d4c1a0-5832-462a-9bbd-7889a605c1e1")
+		)
+		(fp_line
+			(start 1.05 -0.5)
+			(end -1.05 -0.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5044632f-9ad6-471d-b2aa-e5948a4970f9")
+		)
+		(fp_line
+			(start 1.05 0.5)
+			(end 1.05 -0.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "714daeb1-ee7a-45c0-891e-e6d1ee3a7458")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9298b752-82e9-4af6-aed6-9a30a42646ba")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1d231545-c490-49bb-bc69-b45009b92852")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "11f54423-9cd5-4696-8b6b-1d614da66469")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b3259545-bc4c-431f-8639-b16cfd2b6d8f")
+		)
+		(fp_circle
+			(center -1.5 0)
+			(end -1.4 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "cffea989-8e50-4648-a4ad-a53872c08c81")
+		)
+		(pad "1" smd rect
+			(at -0.45 0)
+			(size 0.7 0.5)
+			(layers "F.Cu" "F.Paste")
+			(net 23 "GND")
+			(pintype "passive")
+			(uuid "b1b482da-520a-4d6f-9b3f-e2ad805b8031")
+		)
+		(pad "2" smd rect
+			(at 0.45 0)
+			(size 0.7 0.5)
+			(layers "F.Cu" "F.Paste")
+			(net 78 "Net-(D1-Pad2)")
+			(pintype "passive")
+			(uuid "b23a3a80-97bb-4b5c-b261-19c4b73fb297")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/components/APHHS1005CGCK/APHHS1005CGCK.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13233,6 +13599,185 @@
 			)
 		)
 	)
+	(footprint "RC0402FR-07220RL:RESC1005X40N"
+		(layer "F.Cu")
+		(uuid "bcb84dc9-e3f6-44a2-8d56-0a2ec8ea0926")
+		(at 128.88 65.06)
+		(property "Reference" "R15"
+			(at 0.3 -0.88 0)
+			(layer "F.SilkS")
+			(uuid "e8977114-ce2c-4228-a55d-8dce5286de99")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.098425)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 2.05 0.88 0)
+			(layer "F.Fab")
+			(uuid "ad172948-7b38-454d-aef5-7789d86ffdce")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.098425)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd8bcc2c-f956-4094-b39c-41af9d739a9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e251b79b-51f7-4275-ac68-d5b838eccb0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint Name" "RC0402FR-07220RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "413e4555-0de7-4256-bcb9-5ff10c28c62d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/74406a67-22b8-4caa-8bce-4549352dce77/223cb4ae-3315-45d6-a38c-db6ddfbe38a0")
+		(sheetname "/Power Management/")
+		(sheetfile "powerManagement.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.95 -0.55)
+			(end 0.95 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cae2b29c-efca-4649-b881-5225c3577388")
+		)
+		(fp_line
+			(start -0.95 0.55)
+			(end -0.95 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ec93794d-bbfa-4f06-9237-1996dbf3726c")
+		)
+		(fp_line
+			(start -0.95 0.55)
+			(end 0.95 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4db08874-5460-4e69-ac23-58979e112366")
+		)
+		(fp_line
+			(start 0.95 0.55)
+			(end 0.95 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3551dd31-ba82-4631-9af5-56209069fe3b")
+		)
+		(fp_line
+			(start -0.53 0.28)
+			(end -0.53 -0.28)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5bde8035-888b-4906-ab1d-f5333639196d")
+		)
+		(fp_line
+			(start 0.53 -0.28)
+			(end -0.53 -0.28)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "26f035f2-c7c6-4a23-a772-3821e3c2af4a")
+		)
+		(fp_line
+			(start 0.53 0.28)
+			(end -0.53 0.28)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "61f3740d-f951-4bf1-ac4d-b692e9df9738")
+		)
+		(fp_line
+			(start 0.53 0.28)
+			(end 0.53 -0.28)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "040bc3b6-12c6-4c3d-acec-8dacd8f366fc")
+		)
+		(pad "1" smd rect
+			(at -0.432 0)
+			(size 0.54 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "+3V3")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "0851d854-9489-46d1-9ac9-a9b439f8d3e8")
+		)
+		(pad "2" smd rect
+			(at 0.432 0)
+			(size 0.54 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 78 "Net-(D1-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "62fb9480-bfae-44e4-a2ef-bd362a2da95b")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/components/Resistors/RC0402FR-07220RL/RC0402FR-07220RL.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "CC0603KRX7R9BB104:CC0603KRX7R9BB104"
 		(layer "F.Cu")
 		(uuid "bd38ef9c-09b9-434f-aea4-f8d36fa207c9")
@@ -17085,7 +17630,7 @@
 			(at -0.25 4.755 180)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Paste")
-			(net 78 "ESP_USB_DP")
+			(net 79 "ESP_USB_D+")
 			(pinfunction "DP1")
 			(pintype "bidirectional")
 			(uuid "0cb4f784-2edc-42fb-ab10-7d669d8ba093")
@@ -17094,7 +17639,7 @@
 			(at 0.25 4.755 180)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Paste")
-			(net 79 "ESP_USB_DM")
+			(net 80 "ESP_USB_D-")
 			(pinfunction "DN1")
 			(pintype "bidirectional")
 			(uuid "6e9bc622-5b49-4b07-8b51-603bee01b42a")
@@ -17139,7 +17684,7 @@
 			(at 0.75 4.755 180)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Paste")
-			(net 78 "ESP_USB_DP")
+			(net 79 "ESP_USB_D+")
 			(pinfunction "DP2")
 			(pintype "bidirectional")
 			(uuid "b40623e5-5732-419b-bb90-a23e387b5baa")
@@ -17148,7 +17693,7 @@
 			(at -0.75 4.755 180)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Paste")
-			(net 79 "ESP_USB_DM")
+			(net 80 "ESP_USB_D-")
 			(pinfunction "DN2")
 			(pintype "bidirectional")
 			(uuid "d1c8ee08-1601-47df-ac73-86e8a2042f19")

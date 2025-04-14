@@ -32,4 +32,6 @@
   (lib (name "2025-04-11_13-12-59")(type "KiCad")(uri "${KIPRJMOD}/components/Project Buttons/TS-1010B-B-A/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "Oscillator")(type "KiCad")(uri "${KIPRJMOD}/components/Oscillator.pretty")(options "")(descr ""))
   (lib (name "S3240000151040")(type "KiCad")(uri "${KIPRJMOD}/components/Oscillator/S3240000151040.pretty")(options "")(descr ""))
+  (lib (name "APHHS1005CGCK")(type "KiCad")(uri "${KIPRJMOD}/components/APHHS1005CGCK")(options "")(descr ""))
+  (lib (name "RC0402FR-07220RL")(type "KiCad")(uri "${KIPRJMOD}/components/Resistors/RC0402FR-07220RL")(options "")(descr ""))
 )

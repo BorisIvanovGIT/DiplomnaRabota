@@ -1506,7 +1506,7 @@
 		)
 		(uuid "ff520b5a-d1c9-4773-90aa-589b23d3b7f5")
 	)
-	(label "ESP_USB_DM"
+	(label "ESP_USB_D-"
 		(at 83.82 59.69 0)
 		(effects
 			(font
@@ -1516,7 +1516,7 @@
 		)
 		(uuid "1dbfbe44-7ace-40cd-8708-b107eede4a51")
 	)
-	(label "ESP_USB_DM"
+	(label "ESP_USB_D-"
 		(at 27.94 59.69 0)
 		(effects
 			(font
@@ -1526,7 +1526,7 @@
 		)
 		(uuid "3a270085-5a26-4925-bc3c-ec7bd81e5cc2")
 	)
-	(label "ESP_USB_DP"
+	(label "ESP_USB_D+"
 		(at 27.94 57.15 0)
 		(effects
 			(font
@@ -1536,7 +1536,7 @@
 		)
 		(uuid "eb32b5d2-3c8f-4690-9ced-8666dabdb54c")
 	)
-	(label "ESP_USB_DP"
+	(label "ESP_USB_D+"
 		(at 83.82 57.15 0)
 		(effects
 			(font
@@ -1546,7 +1546,7 @@
 		)
 		(uuid "f507c3fc-6d77-41a5-9d58-5068726249c7")
 	)
-	(global_label "ESP_USB_DP"
+	(global_label "ESP_USB_D+"
 		(shape output)
 		(at 96.52 57.15 0)
 		(fields_autoplaced yes)
@@ -1558,7 +1558,7 @@
 		)
 		(uuid "66d34954-5d82-4428-907e-91acdc2e6df4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.2513 57.15 0)
+			(at 108.4894 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1568,7 +1568,7 @@
 			)
 		)
 	)
-	(global_label "ESP_USB_DM"
+	(global_label "ESP_USB_D-"
 		(shape output)
 		(at 96.52 59.69 0)
 		(fields_autoplaced yes)
@@ -1580,7 +1580,7 @@
 		)
 		(uuid "ea8417a0-4760-4e40-bce6-da35bece2d74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3942 59.69 0)
+			(at 108.4894 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

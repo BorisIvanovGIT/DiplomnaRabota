@@ -2862,16 +2862,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DA SLOJA LED ZA 3.3V DA SE ZNAE CHE RABOTI MOJE I ZA 12V KUM 3.3"
-		(exclude_from_sim no)
-		(at 224.79 24.13 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "4a63347c-8014-42da-9ca8-aa1f1ee9345d")
-	)
 	(text "One capacitor close to each pin"
 		(exclude_from_sim no)
 		(at 149.86 63.5 0)
@@ -2931,6 +2921,12 @@
 		(uuid "5ac6b473-3f47-4811-8e50-7c9e1d128cac")
 	)
 	(junction
+		(at 214.63 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d138a49-d978-4bdd-9fde-d8ca9b91eea3")
+	)
+	(junction
 		(at 177.8 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2953,12 +2949,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72ee8c84-cd92-4a5e-9483-eecdba511c18")
-	)
-	(junction
-		(at 214.63 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8791e5b1-df81-484c-adbc-5bd385254c50")
 	)
 	(junction
 		(at 43.18 44.45)
@@ -3112,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 147.32) (xy 222.25 153.67)
+			(xy 222.25 147.32) (xy 222.25 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 142.24) (xy 214.63 144.78)
+			(xy 214.63 142.24) (xy 214.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3392,23 +3382,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 153.67) (xy 214.63 153.67)
+			(xy 222.25 152.4) (xy 214.63 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42d95116-3155-4187-a90e-c6fe31c02d5b")
-	)
-	(wire
-		(pts
-			(xy 214.63 153.67) (xy 214.63 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44d68f5c-b69c-41cf-be3b-252e73256d22")
 	)
 	(wire
 		(pts
@@ -3562,6 +3542,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 152.4) (xy 214.63 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637015ca-950e-4c9d-a66d-a6a8b77dd8b3")
+	)
+	(wire
+		(pts
 			(xy 30.48 40.64) (xy 30.48 44.45)
 		)
 		(stroke
@@ -3712,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 152.4) (xy 214.63 153.67)
+			(xy 214.63 151.13) (xy 214.63 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4320,7 @@
 		)
 		(uuid "33224dba-56ba-4ad1-afc5-6e879e33c5c2")
 	)
-	(label "ESP_USB_DM"
+	(label "ESP_USB_D-"
 		(at 134.62 114.3 0)
 		(effects
 			(font
@@ -4440,7 +4430,7 @@
 		)
 		(uuid "5dfe643b-f4e6-4f1a-a84c-87edee796ada")
 	)
-	(label "ESP_USB_DP"
+	(label "ESP_USB_D+"
 		(at 134.62 116.84 0)
 		(effects
 			(font
@@ -4762,7 +4752,7 @@
 			)
 		)
 	)
-	(global_label "ESP_USB_DM"
+	(global_label "ESP_USB_D-"
 		(shape input)
 		(at 153.67 114.3 0)
 		(fields_autoplaced yes)
@@ -4774,7 +4764,7 @@
 		)
 		(uuid "00c63822-f5ae-432d-b67e-dca410983333")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.7503 114.3 0)
+			(at 168.8713 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5324,7 @@
 			)
 		)
 	)
-	(global_label "ESP_USB_DP"
+	(global_label "ESP_USB_D+"
 		(shape input)
 		(at 153.67 116.84 0)
 		(fields_autoplaced yes)
@@ -5346,7 +5336,7 @@
 		)
 		(uuid "c9700ee4-7e6c-4a5c-9438-c4bf9d015fa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.5689 116.84 0)
+			(at 168.8713 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +7893,7 @@
 	)
 	(symbol
 		(lib_id "Project Capacitors:GRM1555C1H150JA01D")
-		(at 214.63 148.59 0)
+		(at 214.63 147.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7912,7 +7902,7 @@
 		(dnp no)
 		(uuid "eec50d9e-41f5-444c-b597-250e0c9f8463")
 		(property "Reference" "C26"
-			(at 209.55 147.32 0)
+			(at 209.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +7910,7 @@
 			)
 		)
 		(property "Value" "15pF"
-			(at 209.55 149.86 0)
+			(at 209.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +7918,7 @@
 			)
 		)
 		(property "Footprint" "GRM1555C1H150JA01D:CAPC1005X55N"
-			(at 213.6648 152.4 0)
+			(at 213.6648 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +7927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 148.59 0)
+			(at 214.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,7 +7936,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 214.63 148.59 0)
+			(at 214.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,7 +7945,7 @@
 			)
 		)
 		(property "Footprint Name" "GRM1555C1H150JA01D"
-			(at 207.01 152.4 0)
+			(at 207.01 151.13 0)
 			(effects
 				(font
 					(size 0.635 0.635)

@@ -1523,7 +1523,7 @@
 	)
 	(text "GPIO Headers"
 		(exclude_from_sim no)
-		(at 59.69 30.48 0)
+		(at 59.69 27.94 0)
 		(effects
 			(font
 				(size 4 4)
