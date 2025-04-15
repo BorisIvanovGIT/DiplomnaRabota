@@ -34,4 +34,5 @@
   (lib (name "S3240000151040")(type "KiCad")(uri "${KIPRJMOD}/components/Oscillator/S3240000151040.pretty")(options "")(descr ""))
   (lib (name "APHHS1005CGCK")(type "KiCad")(uri "${KIPRJMOD}/components/APHHS1005CGCK")(options "")(descr ""))
   (lib (name "RC0402FR-07220RL")(type "KiCad")(uri "${KIPRJMOD}/components/Resistors/RC0402FR-07220RL")(options "")(descr ""))
+  (lib (name "0402WGF5101TCE")(type "KiCad")(uri "${KIPRJMOD}/components/Resistors/0402WGF5101TCE")(options "")(descr ""))
 )

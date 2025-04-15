@@ -277,22 +277,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 2.032 0 90)
+			(at -2.54 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "8.2k"
-			(at 0 0 90)
+		(property "Value" "220"
+			(at 2.286 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RC0402FR-078K2L:RESC1005X40N"
+		(property "Footprint" "RC0402FR-07220RL:RESC1005X40N"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -319,7 +319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Name" "RC0402FR-078K2L"
+		(property "Footprint Name" "RC0402FR-07220RL"
 			(at 4.064 0.254 90)
 			(effects
 				(font
