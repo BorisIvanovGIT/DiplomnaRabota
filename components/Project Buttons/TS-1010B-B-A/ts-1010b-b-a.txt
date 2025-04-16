@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-27122024-012266";"";
+"REFERENCE";"TS-1010B-B-A";"";
+"TraceParts.PartTitle";"TS-1010B-B-A";"";
+"TraceParts.InstanceId";"90-27122024-0122662N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"XKB";"";
+"DESIGN";"Tact Switch2.65x4.5x3.5 Side stickers  With metal frame 160gfthickening Fixed with ears";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.2";"";
