@@ -100,6 +100,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(aux_axis_origin 77.4 154.2)
 		(grid_origin 77.4 154.2)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -16314,7 +16315,7 @@
 	(footprint "PTS810SJK250SMTRLFS:PTS810SJG250SMTRLFS"
 		(layer "B.Cu")
 		(uuid "42ec56c9-649e-48c7-bb9a-360718ac3df1")
-		(at 109.75 151.87 180)
+		(at 109.4 152 180)
 		(descr "<b>pts810</b><br>")
 		(property "Reference" "SW2"
 			(at 0 2.8 0)
@@ -16656,7 +16657,7 @@
 	(footprint "PTS810SJK250SMTRLFS:PTS810SJG250SMTRLFS"
 		(layer "B.Cu")
 		(uuid "a62e4475-f242-420e-8d7f-806c42da7fd2")
-		(at 81.46 151.79)
+		(at 81.4 152)
 		(descr "<b>pts810</b><br>")
 		(property "Reference" "SW3"
 			(at 0 -2.66 180)
@@ -17261,7 +17262,7 @@
 	(footprint "TYPE-C-USB4105-GF-A:GCT_USB4105-GF-A"
 		(layer "B.Cu")
 		(uuid "dccf6411-4357-408b-8e5b-04f3e3f18757")
-		(at 91.08 152.2 180)
+		(at 91.08 152.8 180)
 		(property "Reference" "ST2"
 			(at 6.775 8.435 0)
 			(layer "B.SilkS")
@@ -18297,6 +18298,82 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "e1fec6b1-49fd-4884-9cb1-76eae27d0fc1")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "5781d7a6-3896-42da-a2ec-fdd253b4a595")
+		(pts
+			(xy 77.4 154.2) (xy 113.4 154.2)
+		)
+		(height 5.32)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "36"
+			(at 95.4 158.37 0)
+			(layer "Dwgs.User")
+			(uuid "5781d7a6-3896-42da-a2ec-fdd253b4a595")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "f5f5d72b-c875-4845-8fc7-79f2acb8f51b")
+		(pts
+			(xy 77.4 154.2) (xy 77.4 84.2)
+		)
+		(height -4.02)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "70"
+			(at 72.23 119.2 90)
+			(layer "Dwgs.User")
+			(uuid "f5f5d72b-c875-4845-8fc7-79f2acb8f51b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
