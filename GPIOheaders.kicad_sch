@@ -1500,7 +1500,7 @@
 		)
 		(uuid baa28641-1238-41d9-a673-c1dcae0b9f4b)
 	)
-	(text "Distance between headers - 22.86mm"
+	(text "Distance between headers - 25.4mm"
 		(exclude_from_sim no)
 		(at 60.96 91.44 0)
 		(effects
