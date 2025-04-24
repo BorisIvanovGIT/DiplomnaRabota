@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Digital Cockpit PCB")
+		(date "2025-04-24")
+		(rev "1.0")
+	)
 	(layers
 		(0 "F.Cu" signal "Top.Cu")
 		(4 "In1.Cu" signal)
@@ -109,7 +114,7 @@
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -133,14 +138,14 @@
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
-			(sketchdnponfab yes)
-			(crossoutdnponfab yes)
+			(sketchdnponfab no)
+			(crossoutdnponfab no)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerb Files/")
 		)
 	)
 	(net 0 "")
@@ -818,10 +823,9 @@
 			)
 		)
 		(fp_text user "*"
-			(at -0.4699 -1.4224 180)
-			(unlocked yes)
+			(at -0.4699 -1.4224 0)
 			(layer "F.Fab")
-			(uuid "fbb8d746-ea7b-476a-ab87-8b4d30bb82c3")
+			(uuid "fab41b3e-9903-4e23-a9d3-8c8095baeb39")
 			(effects
 				(font
 					(size 1 1)
@@ -830,7 +834,8 @@
 			)
 		)
 		(fp_text user "*"
-			(at -0.4699 -1.4224 0)
+			(at -0.4699 -1.4224 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "fbb8d746-ea7b-476a-ab87-8b4d30bb82c3")
 			(effects
@@ -17501,7 +17506,7 @@
 	)
 	(gr_line
 		(start 109.8 102.3)
-		(end 110.4 102.3)
+		(end 110.3 102.3)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -17617,7 +17622,7 @@
 		)
 	)
 	(gr_text "3V3"
-		(at 110.1 123.2 0)
+		(at 110 123.2 0)
 		(layer "F.SilkS")
 		(uuid "3207ad7e-dc03-49bc-9197-85a360af0299")
 		(effects
@@ -17665,7 +17670,7 @@
 		)
 	)
 	(gr_text "GPIO3"
-		(at 78.85 104.4 90)
+		(at 79 104.4 90)
 		(layer "F.SilkS")
 		(uuid "75afc15c-6788-4502-85b3-22212d381a7e")
 		(effects
@@ -17713,7 +17718,7 @@
 		)
 	)
 	(gr_text "GPIO13"
-		(at 78.92 114.82 90)
+		(at 79 114.82 90)
 		(layer "F.SilkS")
 		(uuid "8defa9e8-d2c3-49fa-a9af-dfbffff1d729")
 		(effects

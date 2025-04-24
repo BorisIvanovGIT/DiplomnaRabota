@@ -807,7 +807,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerb Files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -818,7 +818,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "BOM/ESP32_BOARD.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1053,6 +1053,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footpirnt Name",
+          "name": "Footpirnt Name",
           "show": false
         }
       ],
