@@ -35,4 +35,5 @@
   (lib (name "RC0402FR-07220RL")(type "KiCad")(uri "${KIPRJMOD}/components/Resistors/RC0402FR-07220RL")(options "")(descr ""))
   (lib (name "0402WGF5101TCE")(type "KiCad")(uri "${KIPRJMOD}/components/Resistors/0402WGF5101TCE")(options "")(descr ""))
   (lib (name "JST_B2B-EH-A(LF)(SN)")(type "KiCad")(uri "${KIPRJMOD}/components/JST_B2B-EH-A-LF-SN")(options "")(descr ""))
+  (lib (name "TYPE-C_16PIN_2MD__073_")(type "KiCad")(uri "${KIPRJMOD}/components/TYPE-C_16PIN_2MD__073_")(options "")(descr ""))
 )
