@@ -808,7 +808,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Gerb Files/",
-      "pos_files": "",
+      "pos_files": "BOM/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
