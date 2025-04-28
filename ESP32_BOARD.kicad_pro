@@ -807,7 +807,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerb Files/",
+      "plot": "./",
       "pos_files": "BOM/",
       "specctra_dsn": "",
       "step": "",

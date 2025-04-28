@@ -5105,6 +5105,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/EASYEDA_MODELS/CRYSTAL-SMD_4P-L3.2-W2.5-BL.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
