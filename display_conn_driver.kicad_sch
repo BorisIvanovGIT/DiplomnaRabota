@@ -1796,7 +1796,7 @@
 		)
 		(uuid c2971807-e1ae-44f8-b59a-a095c9624043)
 	)
-	(text "Display Driver"
+	(text "Display Backlight Driver"
 		(exclude_from_sim no)
 		(at 154.94 19.05 0)
 		(effects

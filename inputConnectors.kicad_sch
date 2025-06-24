@@ -1165,9 +1165,9 @@
 		)
 		(uuid "12177395-0af5-4b9e-832d-d24bf4f24937")
 	)
-	(text "Pull-Downs used to enable the \nPD over the Type-C connector"
+	(text "5.1 kΩ pull-down resistors on CC \nlines indicate USB 2.0 peripheral\n(Device Mode) configuration"
 		(exclude_from_sim no)
-		(at 110.49 76.2 0)
+		(at 110.49 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
